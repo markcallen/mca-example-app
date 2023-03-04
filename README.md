@@ -37,7 +37,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Development
+
+### Pre Commit Check
+
+Using husky to create the git hooks and lint-staged to run eslint and prettier on the
+files that are staged.
+
 ## Workflows
+
+## Dependabot
+
+Using built in dependabot to manage dependencies for the project and create PRs
+when there is an update.
 
 ### Lint
 
