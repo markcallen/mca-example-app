@@ -50,6 +50,14 @@ constructs or code that can lead to bugs or other issues.
 The workflow [lint.yaml](.github/workflows/lint.yaml) runs eslint and prettier when
 ever there is a push to a branch, including main.
 
+## Build
+
+As this is a nextjs project a build can be done on each new Pull Request from the
+`main` branch.
+
+The workflow [build.yaml](.github/workflows/build.yaml) runs `yarn build` when
+ever there is a new PR from main.
+
 ## License
 
 Distributed under the Apache-2.0 License. See `LICENSE` for more information.
