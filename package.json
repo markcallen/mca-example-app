@@ -13,6 +13,7 @@
     "release": "release-it"
   },
   "dependencies": {
+    "@devcycle/devcycle-react-sdk": "^1.8.4",
     "@sentry/nextjs": "^7.47.0",
     "@sentry/react": "^7.47.0",
     "@types/node": "18.14.6",
