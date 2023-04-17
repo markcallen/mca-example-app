@@ -30,12 +30,12 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@devcycle/devcycle-js-sdk@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.9.4.tgz#eeeb6c82b4c38ca2872a6a4a3a987ba506d5ccf1"
-  integrity sha512-LakPByMR+lh/s+GcqNITOqlUK3HeuJRbbIQZvQtiJfAekEcBpyJ/bosL455V+iH+ioQtGxcaKUCBwSX5yI4IJw==
+"@devcycle/devcycle-js-sdk@1.9.5":
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.9.5.tgz#7c0a50f70e78af58a3a18499ac3e2506ca31cdfb"
+  integrity sha512-J+/6+vMiwCaN9Yyf86dafRne5xEtRQKHSSvSvJBgH2haMLHRM4lqUueq2R3JiQaBV28HRmkW3qvJznVwzPqCaw==
   dependencies:
-    "@devcycle/types" "1.0.67"
+    "@devcycle/types" "1.0.68"
     "@nestjs/class-validator" "^0.13.4"
     axios "^0.27.2"
     axios-retry "^3.3.1"
@@ -46,19 +46,19 @@
     ua-parser-js "^1.0.2"
     uuid "^8.3.2"
 
-"@devcycle/devcycle-react-sdk@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.8.4.tgz#9da87fc6be255a69b324f76bb6b7fe1c103380d5"
-  integrity sha512-YQDZcWhXeBC5JMjNJoTpwHKpj58xpZPAPhlio16EOtY0IB8AYnV6+x0IuEkIR1ynSm+DB8qVnu5KPDZ9GsZI3w==
+"@devcycle/devcycle-react-sdk@1.8.5":
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.8.5.tgz#fc358562fa9c6a99f962073bef8de56c2de1322c"
+  integrity sha512-SmolZjc4RVo9UUfzUMU5HMzzzHALflPB0bwr8GR4IfY7H1GPk+UIQKao6qNBtDv3qmU3tMfjo5WKrpHVef2Omw==
   dependencies:
-    "@devcycle/devcycle-js-sdk" "1.9.4"
-    "@devcycle/types" "1.0.67"
+    "@devcycle/devcycle-js-sdk" "1.9.5"
+    "@devcycle/types" "1.0.68"
     hoist-non-react-statics "^3.3.2"
 
-"@devcycle/types@1.0.67":
-  version "1.0.67"
-  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.0.67.tgz#f9c9854466ddbde70a881cfda6fea756e20714fe"
-  integrity sha512-09by6oOKTLMUU00Hox75RkLpN3BC4XH9ukGhJjeWGgSgYeBy+d169JbfJbnCMEGLSVVxSXxE4vgiGHhnjEzluQ==
+"@devcycle/types@1.0.68":
+  version "1.0.68"
+  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.0.68.tgz#e1e09a973fad46929e4fcfca9083370e775744a2"
+  integrity sha512-RR39m/A4NKFxcfih/kQRhIja39Qg8UvXOUKqDKEosGnCUWvT/hXkw0HfxJubii4+FRgyIpXBCO1M0+gDYSkfLA==
   dependencies:
     "@nestjs/class-validator" "^0.13.4"
     "@types/validator" "13.7.6"
