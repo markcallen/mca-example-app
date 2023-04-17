@@ -15,7 +15,7 @@
   "dependencies": {
     "@devcycle/devcycle-react-sdk": "1.8.4",
     "@sentry/nextjs": "7.47.0",
-    "@sentry/react": "7.47.0",
+    "@sentry/react": "7.48.0",
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
