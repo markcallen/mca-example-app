@@ -10,7 +10,8 @@
     "prettier": "npx prettier --config .prettierrc  --check .",
     "prettier:fix": "npx prettier --config .prettierrc  --write .",
     "prepare": "husky install",
-    "release": "release-it"
+    "release": "release-it",
+    "test": "jest"
   },
   "dependencies": {
     "@devcycle/devcycle-react-sdk": "1.8.4",
@@ -21,6 +22,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
@@ -29,6 +32,8 @@
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "release-it": "^15.8.0",
