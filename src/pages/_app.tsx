@@ -1,8 +1,12 @@
-import '@/styles/globals.css';
+import { ChakraProvider } from '@chakra-ui/react';
 import { withDVCProvider } from '@devcycle/devcycle-react-sdk';
 
 const App = ({ Component, pageProps }: any) => {
-  return <Component {...pageProps} />;
+  return (
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
 };
 
 export default withDVCProvider({
