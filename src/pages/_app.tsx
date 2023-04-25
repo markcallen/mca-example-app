@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-//import type { AppProps } from 'next/app';
 import { withDVCProvider } from '@devcycle/devcycle-react-sdk';
 
 const App = ({ Component, pageProps }: any) => {

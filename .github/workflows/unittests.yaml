@@ -1,0 +1,27 @@
+---
+name: Unit Tests
+
+on:
+  push:
+
+jobs:
+  unittests:
+    name: Run unittests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.14.0
+
+      - name: Install Node.js dependencies
+        run: yarn
+
+      - name: Run unittests
+        run: npm test
