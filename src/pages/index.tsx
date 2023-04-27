@@ -1,7 +1,24 @@
 import Head from 'next/head';
-import { Box, Flex, Image, Heading, Stack } from '@chakra-ui/react';
+import { Button, Box, Flex, Image, Heading, Stack } from '@chakra-ui/react';
+import { useDVCClient, useVariableValue } from '@devcycle/devcycle-react-sdk';
 
 export default function Home() {
+  const newUser = {
+    user_id: 'new_user_id'
+  };
+  const dvcClient = useDVCClient();
+  const heroLogo = useVariableValue('hero-logo', 'mca');
+
+  const identifyUser = () => {
+    dvcClient.identifyUser(newUser).then((vars) => {
+      console.log('react-app: ', vars);
+    });
+  };
+
+  const resetUser = () => {
+    dvcClient.resetUser();
+  };
+
   return (
     <>
       <Head>
@@ -58,13 +75,19 @@ export default function Home() {
             >
               Working with NextJS and Typescript
             </Heading>
+            <Button onClick={() => identifyUser()}>Identify new user</Button>
+            <Button onClick={() => resetUser()}>Reset user</Button>
           </Stack>
           <Box
             w={{ base: '80%', sm: '60%', md: '50%' }}
             mb={{ base: 12, md: 0 }}
           >
             <Image
-              src="mca_square_logo.png"
+              src={
+                heroLogo === 'togglebot'
+                  ? 'devcycle_togglebot_full_color_web_900px_w_72ppi.png'
+                  : 'mca_square_logo.png'
+              }
               alt="image"
               sizes="100%"
               rounded="1rem"
