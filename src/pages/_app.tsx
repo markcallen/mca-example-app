@@ -1,10 +1,16 @@
+import React from 'react';
+
 import { ChakraProvider } from '@chakra-ui/react';
 import { withDVCProvider } from '@devcycle/devcycle-react-sdk';
+
+import { DVCDevToolProvider } from '../contexts/devcycledevtool';
 
 const App = ({ Component, pageProps }: any) => {
   return (
     <ChakraProvider>
-      <Component {...pageProps} />
+      <DVCDevToolProvider>
+        <Component {...pageProps} />
+      </DVCDevToolProvider>
     </ChakraProvider>
   );
 };
