@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.6.0",
-    "@devcycle/devcycle-react-sdk": "1.8.4",
+    "@devcycle/devcycle-react-sdk": "1.9.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@sentry/nextjs": "7.47.0",
