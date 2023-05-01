@@ -17,7 +17,7 @@
     "@chakra-ui/react": "^2.6.0",
     "@devcycle/devcycle-react-sdk": "1.8.4",
     "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
+    "@emotion/styled": "^11.10.8",
     "@sentry/nextjs": "7.47.0",
     "@sentry/react": "7.47.0",
     "framer-motion": "^10.12.4",
