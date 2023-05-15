@@ -1849,6 +1849,16 @@
     "@sentry/utils" "7.47.0"
     tslib "^1.9.3"
 
+"@sentry-internal/tracing@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/tracing/-/tracing-7.51.2.tgz#17833047646426ca71445327018ffcb33506a699"
+  integrity sha512-OBNZn7C4CyocmlSMUPfkY9ORgab346vTHu5kX35PgW5XR51VD2nO5iJCFbyFcsmmRWyCJcZzwMNARouc2V4V8A==
+  dependencies:
+    "@sentry/core" "7.51.2"
+    "@sentry/types" "7.51.2"
+    "@sentry/utils" "7.51.2"
+    tslib "^1.9.3"
+
 "@sentry/browser@7.47.0":
   version "7.47.0"
   resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.47.0.tgz#c0d10f348d1fb9336c3ef8fa2f6638f26d4c17a8"
@@ -1859,6 +1869,18 @@
     "@sentry/replay" "7.47.0"
     "@sentry/types" "7.47.0"
     "@sentry/utils" "7.47.0"
+    tslib "^1.9.3"
+
+"@sentry/browser@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.51.2.tgz#c01758a54c613be45df58ab503805737256f51a4"
+  integrity sha512-FQFEaTFbvYHPQE2emFjNoGSy+jXplwzoM/XEUBRjrGo62lf8BhMvWnPeG3H3UWPgrWA1mq0amvHRwXUkwofk0g==
+  dependencies:
+    "@sentry-internal/tracing" "7.51.2"
+    "@sentry/core" "7.51.2"
+    "@sentry/replay" "7.51.2"
+    "@sentry/types" "7.51.2"
+    "@sentry/utils" "7.51.2"
     tslib "^1.9.3"
 
 "@sentry/cli@^1.74.6":
@@ -1880,6 +1902,15 @@
   dependencies:
     "@sentry/types" "7.47.0"
     "@sentry/utils" "7.47.0"
+    tslib "^1.9.3"
+
+"@sentry/core@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-7.51.2.tgz#f2c938de334f9bf26f4416079168275832423964"
+  integrity sha512-p8ZiSBxpKe+rkXDMEcgmdoyIHM/1bhpINLZUFPiFH8vzomEr7sgnwRhyrU8y/ADnkPeNg/2YF3QpDpk0OgZJUA==
+  dependencies:
+    "@sentry/types" "7.51.2"
+    "@sentry/utils" "7.51.2"
     tslib "^1.9.3"
 
 "@sentry/integrations@7.47.0":
@@ -1935,6 +1966,17 @@
     hoist-non-react-statics "^3.3.2"
     tslib "^1.9.3"
 
+"@sentry/react@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/react/-/react-7.51.2.tgz#8d09c8358a920d06225f879b0291867175d4f045"
+  integrity sha512-NiTbpiRaF7/2YnRONLqn8/bxT5UG+JN5MrR606ipxsl3ejF376VMLCHVvju6gJNw8mkrErEMkfxK+gGYqOdLEA==
+  dependencies:
+    "@sentry/browser" "7.51.2"
+    "@sentry/types" "7.51.2"
+    "@sentry/utils" "7.51.2"
+    hoist-non-react-statics "^3.3.2"
+    tslib "^1.9.3"
+
 "@sentry/replay@7.47.0":
   version "7.47.0"
   resolved "https://registry.yarnpkg.com/@sentry/replay/-/replay-7.47.0.tgz#d2fc8fd3be2360950497426035d1ba0bd8a97b8f"
@@ -1944,10 +1986,24 @@
     "@sentry/types" "7.47.0"
     "@sentry/utils" "7.47.0"
 
+"@sentry/replay@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/replay/-/replay-7.51.2.tgz#1f54e92b472ab87dfdb4e8cd6b8c8252600fe7b0"
+  integrity sha512-W8YnSxkK9LTUXDaYciM7Hn87u57AX9qvH8jGcxZZnvpKqHlDXOpSV8LRtBkARsTwgLgswROImSifY0ic0lyCWg==
+  dependencies:
+    "@sentry/core" "7.51.2"
+    "@sentry/types" "7.51.2"
+    "@sentry/utils" "7.51.2"
+
 "@sentry/types@7.47.0":
   version "7.47.0"
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.47.0.tgz#fd07dbec11a26ae861532a9abe75bd31663ca09b"
   integrity sha512-GxXocplN0j1+uczovHrfkykl9wvkamDtWxlPUQgyGlbLGZn+UH1Y79D4D58COaFWGEZdSNKr62gZAjfEYu9nQA==
+
+"@sentry/types@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.51.2.tgz#cb742f374d9549195f62c462c915adeafed31d65"
+  integrity sha512-/hLnZVrcK7G5BQoD/60u9Qak8c9AvwV8za8TtYPJDUeW59GrqnqOkFji7RVhI7oH1OX4iBxV+9pAKzfYE6A6SA==
 
 "@sentry/utils@7.47.0":
   version "7.47.0"
@@ -1955,6 +2011,14 @@
   integrity sha512-A89SaOLp6XeZfByeYo2C8Ecye/YAtk/gENuyOUhQEdMulI6mZdjqtHAp7pTMVgkBc/YNARVuoa+kR/IdRrTPkQ==
   dependencies:
     "@sentry/types" "7.47.0"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.51.2":
+  version "7.51.2"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.51.2.tgz#2a52ac2cfb00ffd128248981279c0a561b39eccb"
+  integrity sha512-EcjBU7qG4IG+DpIPvdgIBcdIofROMawKoRUNKraeKzH/waEYH9DzCaqp/mzc5/rPBhpDB4BShX9xDDSeH+8c0A==
+  dependencies:
+    "@sentry/types" "7.51.2"
     tslib "^1.9.3"
 
 "@sentry/webpack-plugin@1.20.0":
