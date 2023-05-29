@@ -1117,12 +1117,12 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.0.15.tgz#60df64e0ab97d95fee4e6c61ccabd15fd5ace398"
   integrity sha512-WWULIiucYRBIewHKFA7BssQ2ABLHLVd9lrUo3N3SZgR0u4ZRDDVEUNOy+r+9ruDze8+36dGbN9wsN1IdELtdOw==
 
-"@devcycle/devcycle-js-sdk@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.9.4.tgz#eeeb6c82b4c38ca2872a6a4a3a987ba506d5ccf1"
-  integrity sha512-LakPByMR+lh/s+GcqNITOqlUK3HeuJRbbIQZvQtiJfAekEcBpyJ/bosL455V+iH+ioQtGxcaKUCBwSX5yI4IJw==
+"@devcycle/devcycle-js-sdk@1.11.1":
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.11.1.tgz#6ef8f0999a9ee80123c02899623a465ceaa51f52"
+  integrity sha512-6g351I1A6KA4Ww7BvWXo959hOLmPtYgsrzFnjwkbGWHAhKtE/q+JDy+GrRcslh1CMKs65ItNcUHs/L4G4PulhQ==
   dependencies:
-    "@devcycle/types" "1.0.67"
+    "@devcycle/types" "1.1.3"
     "@nestjs/class-validator" "^0.13.4"
     axios "^0.27.2"
     axios-retry "^3.3.1"
@@ -1133,19 +1133,19 @@
     ua-parser-js "^1.0.2"
     uuid "^8.3.2"
 
-"@devcycle/devcycle-react-sdk@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.8.4.tgz#9da87fc6be255a69b324f76bb6b7fe1c103380d5"
-  integrity sha512-YQDZcWhXeBC5JMjNJoTpwHKpj58xpZPAPhlio16EOtY0IB8AYnV6+x0IuEkIR1ynSm+DB8qVnu5KPDZ9GsZI3w==
+"@devcycle/devcycle-react-sdk@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.9.4.tgz#65c355b96134d508beff5bf6271a2d1977679c12"
+  integrity sha512-d2YDW7TtZn+wxq2Qxr8fIQoMGqEvlOLj5DapeQ79sl3AXrGiDgNY5tbVcgR/uDcapqcGSdH3Hc6aOoIq+7LAFw==
   dependencies:
-    "@devcycle/devcycle-js-sdk" "1.9.4"
-    "@devcycle/types" "1.0.67"
+    "@devcycle/devcycle-js-sdk" "1.11.1"
+    "@devcycle/types" "1.1.3"
     hoist-non-react-statics "^3.3.2"
 
-"@devcycle/types@1.0.67":
-  version "1.0.67"
-  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.0.67.tgz#f9c9854466ddbde70a881cfda6fea756e20714fe"
-  integrity sha512-09by6oOKTLMUU00Hox75RkLpN3BC4XH9ukGhJjeWGgSgYeBy+d169JbfJbnCMEGLSVVxSXxE4vgiGHhnjEzluQ==
+"@devcycle/types@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.1.3.tgz#222514b47ec457d89db4312814cb0a1120fe064f"
+  integrity sha512-QQZXtqEJzklow2SR9JT7kLb4A82NnAuFwz2mUJUbBP3ZUHtwE7SF6quJK6Wp4y1aB07w37RT26hRwyN28W3sdw==
   dependencies:
     "@nestjs/class-validator" "^0.13.4"
     "@types/validator" "13.7.6"
