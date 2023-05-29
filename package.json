@@ -19,7 +19,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@sentry/nextjs": "7.47.0",
-    "@sentry/react": "7.47.0",
+    "@sentry/react": "7.53.1",
     "framer-motion": "^10.12.4",
     "next": "13.2.3",
     "react": "18.2.0",
