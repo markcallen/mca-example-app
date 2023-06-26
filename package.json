@@ -14,7 +14,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.6.0",
+    "@chakra-ui/react": "^2.7.1",
     "@devcycle/devcycle-react-sdk": "1.8.4",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
