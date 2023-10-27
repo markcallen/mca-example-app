@@ -1117,42 +1117,41 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.0.15.tgz#60df64e0ab97d95fee4e6c61ccabd15fd5ace398"
   integrity sha512-WWULIiucYRBIewHKFA7BssQ2ABLHLVd9lrUo3N3SZgR0u4ZRDDVEUNOy+r+9ruDze8+36dGbN9wsN1IdELtdOw==
 
-"@devcycle/devcycle-js-sdk@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.9.4.tgz#eeeb6c82b4c38ca2872a6a4a3a987ba506d5ccf1"
-  integrity sha512-LakPByMR+lh/s+GcqNITOqlUK3HeuJRbbIQZvQtiJfAekEcBpyJ/bosL455V+iH+ioQtGxcaKUCBwSX5yI4IJw==
+"@devcycle/devcycle-js-sdk@1.12.2":
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-js-sdk/-/devcycle-js-sdk-1.12.2.tgz#7c7fb3e6124291b3ad9c7e05164b8927edca0514"
+  integrity sha512-4S7oPZqPqjsVN3j/25TBfE9qkdozknYef/bMzTTWxsdUBxmqqFyFnm7icm3+sR8o+RyOOJrQTsSR1DXWmpQpyw==
   dependencies:
-    "@devcycle/types" "1.0.67"
-    "@nestjs/class-validator" "^0.13.4"
-    axios "^0.27.2"
+    "@devcycle/types" "1.1.5"
+    "@nestjs/class-validator" "0.13.4"
+    axios "^1.0.0"
     axios-retry "^3.3.1"
     class-transformer "0.5.1"
-    iso-639-1 "^2.1.13"
+    iso-639-1 "2.1.13"
     lodash "^4.17.21"
-    reflect-metadata "^0.1.13"
+    reflect-metadata "0.1.13"
     ua-parser-js "^1.0.2"
     uuid "^8.3.2"
 
-"@devcycle/devcycle-react-sdk@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.8.4.tgz#9da87fc6be255a69b324f76bb6b7fe1c103380d5"
-  integrity sha512-YQDZcWhXeBC5JMjNJoTpwHKpj58xpZPAPhlio16EOtY0IB8AYnV6+x0IuEkIR1ynSm+DB8qVnu5KPDZ9GsZI3w==
+"@devcycle/devcycle-react-sdk@1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@devcycle/devcycle-react-sdk/-/devcycle-react-sdk-1.10.2.tgz#b043752ea52b8ee1ece9d6a5faf64fdaf768482e"
+  integrity sha512-APfhrcBFEjGEsn9ULXtDr0L0iHpRoL/8yIw0gTO9kl4g4uR04iGgZBxuyKmcNXdhXzVVZgZhZtTbKFHS5ayslw==
   dependencies:
-    "@devcycle/devcycle-js-sdk" "1.9.4"
-    "@devcycle/types" "1.0.67"
+    "@devcycle/devcycle-js-sdk" "1.12.2"
+    "@devcycle/types" "1.1.5"
     hoist-non-react-statics "^3.3.2"
 
-"@devcycle/types@1.0.67":
-  version "1.0.67"
-  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.0.67.tgz#f9c9854466ddbde70a881cfda6fea756e20714fe"
-  integrity sha512-09by6oOKTLMUU00Hox75RkLpN3BC4XH9ukGhJjeWGgSgYeBy+d169JbfJbnCMEGLSVVxSXxE4vgiGHhnjEzluQ==
+"@devcycle/types@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@devcycle/types/-/types-1.1.5.tgz#cfc8d5472479a6632fea29b7c3669337ed68c926"
+  integrity sha512-CZsZ+rx++v3dzG1YVBXpR6EpN/QW02A94rJ7KczQcsRyxFHRAJGsKY3vJj7C0OZsjA4eLxMQj8iir4s9mqJhvw==
   dependencies:
-    "@nestjs/class-validator" "^0.13.4"
-    "@types/validator" "13.7.6"
+    "@nestjs/class-validator" "0.13.4"
     class-transformer "0.5.1"
-    iso-639-1 "^2.1.13"
-    lodash "^4.17.21"
-    reflect-metadata "^0.1.13"
+    iso-639-1 "2.1.13"
+    lodash "4.17.21"
+    reflect-metadata "0.1.13"
 
 "@emotion/babel-plugin@^11.10.6":
   version "11.10.6"
@@ -1574,7 +1573,7 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@nestjs/class-validator@^0.13.4":
+"@nestjs/class-validator@0.13.4":
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/@nestjs/class-validator/-/class-validator-0.13.4.tgz#6dc574681cecad2eadd749489999739992fb781f"
   integrity sha512-/mqZL36LJ5uV5WDhi87Cd52IssuO+SStaOr2+6sBsvCCGUWkoJes4Wwzmm3m/gdHH+tsNxX60sVSzYcU6hAy9Q==
@@ -2229,11 +2228,6 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.2.tgz#6286b4c7228d58ab7866d19716f3696e03a09397"
   integrity sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==
 
-"@types/validator@13.7.6":
-  version "13.7.6"
-  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.7.6.tgz#631f1acd15cbac9cb0a114da7e87575f1c95b46a"
-  integrity sha512-uBsnWETsUagQ0n6G2wcXNIufpTNJir0zqzG4p62fhnwzs48d/iuOWEEo0d3iUxN7D+9R/8CSvWGKS+KmaD0mWA==
-
 "@types/yargs-parser@*":
   version "21.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
@@ -2547,13 +2541,14 @@ axios-retry@^3.3.1:
     "@babel/runtime" "^7.15.4"
     is-retry-allowed "^2.2.0"
 
-axios@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
-  integrity sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==
+axios@^1.0.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.0.tgz#f1e5292f26b2fd5c2e66876adc5b06cdbd7d2102"
+  integrity sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==
   dependencies:
-    follow-redirects "^1.14.9"
+    follow-redirects "^1.15.0"
     form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
 
 axobject-query@^3.1.1:
   version "3.1.1"
@@ -3903,10 +3898,10 @@ focus-lock@^0.11.6:
   dependencies:
     tslib "^2.0.3"
 
-follow-redirects@^1.14.9:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
-  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+follow-redirects@^1.15.0:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.3.tgz#fe2f3ef2690afce7e82ed0b44db08165b207123a"
+  integrity sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -4781,10 +4776,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-iso-639-1@^2.1.13:
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.1.15.tgz#20cf78a4f691aeb802c16f17a6bad7d99271e85d"
-  integrity sha512-7c7mBznZu2ktfvyT582E2msM+Udc1EjOyhVRE/0ZsjD9LBtWSm23h3PtiRh2a35XoUsTQQjJXaJzuLjXsOdFDg==
+iso-639-1@2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.1.13.tgz#bfca6c6b49be6f92815f1985e892d497770ea1dc"
+  integrity sha512-stYt3u6OnVDNcK4IWARGXmTOOY5Wa5g4bUmBsttZp/55ZiEjDUibR3C59ZnorKoSS0tfJmFuGMST3ksnY1zu7Q==
 
 istanbul-lib-coverage@^3.0.0, istanbul-lib-coverage@^3.2.0:
   version "3.2.0"
@@ -6360,7 +6355,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-reflect-metadata@^0.1.13:
+reflect-metadata@0.1.13:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
